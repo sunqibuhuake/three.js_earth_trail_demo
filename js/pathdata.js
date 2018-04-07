@@ -342,7 +342,7 @@ var TARGET_LIST = {
 
 }
 
-var LINE_DATA = (function() {
+var PATH_DATA = (function() {
     var lines = [];
     for (var prop in TARGET_LIST) {
         lines.push(

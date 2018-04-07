@@ -211,7 +211,7 @@ function initEarth() {
     * @param string radius
     * */
     function generateAllPathsPoints(radius) {
-        LINE_DATA.forEach(function (line) {
+        PATH_DATA.forEach(function (line) {
             generateOnePathPoints(radius,line.start, line.end)
         })
 
